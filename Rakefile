@@ -41,7 +41,7 @@ def make_jar(source_folder, jar_file_name)
             debug: 'yes',
             includeantruntime: 'no'
   ant.jar jarfile: "#{COMPILE_DIR}/#{jar_file_name}", basedir: CLASSES_DIR do
-    zipgroupfileset dir: JARS_DIR, includes: 'jruby-complete-9.1.8.0.jar'
+    zipgroupfileset dir: JARS_DIR, includes: 'jruby-complete-9.1.15.0.jar'
   end
   puts
 end
