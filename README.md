@@ -5,3 +5,6 @@
 An experimental repository to test running lambda functions in aws, while using ruby.
 
 ![Image of Yaktocat](profit!.png)
+
+- [ ] document aws config
+- [ ] include gems to enable more extensive functionality
